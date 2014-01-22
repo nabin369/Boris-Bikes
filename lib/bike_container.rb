@@ -40,8 +40,8 @@ module BikeContainer
 	# 	bikes.select {|bike| bike.broken? }
 	# end
 
-	# def empty?
-	# 	bikes.empty?
-	# end
+	def empty?
+		bikes.empty?
+	end
 
 end

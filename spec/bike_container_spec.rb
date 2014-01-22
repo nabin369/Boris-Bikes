@@ -16,9 +16,9 @@ describe BikeContainer do
 		expect(holder.bike_count).to eq(1)
 	end
 
-	# it "should not release if it's empty" do
-	# 	expect(holder.empty?).to eq(true)
-	# end
+	it "should not release if it's empty" do
+		expect(holder.empty?).to eq(true)
+	end
 
 	# it "should not accept if its not a bike" do
 	# 	expect(holder.dock(holder)).to eq(false)
