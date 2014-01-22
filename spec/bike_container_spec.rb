@@ -15,4 +15,19 @@ describe BikeContainer do
 		# now we expect the holder to have 1 bike
 		expect(holder.bike_count).to eq(1)
 	end
+
+	# it "should not release if it's empty" do
+	# 	expect(holder.empty?).to eq(true)
+	# end
+
+	# it "should not accept if its not a bike" do
+	# 	expect(holder.dock(holder)).to eq(false)
+	# end
+
+	# it "should return broken bike to the van" do
+	# 	broken_bikes, working_bikes = Bike.new, Bike.new
+	# 	broken_bikes.break
+	# 	holder.dock(broken_bikes)
+	# 	expect(holder.broken_bikes).to eq([broken_bikes])
+	# end
 end
