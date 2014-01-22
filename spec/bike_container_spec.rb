@@ -20,9 +20,9 @@ describe BikeContainer do
 		expect(holder.empty?).to eq(true)
 	end
 
-	# it "should not accept if its not a bike" do
-	# 	expect(holder.dock(holder)).to eq(false)
-	# end
+	it "should not accept if its not a bike" do
+		expect(holder.dock(holder)).to eq(false)
+	end
 
 	# it "should return broken bike to the van" do
 	# 	broken_bikes, working_bikes = Bike.new, Bike.new
