@@ -8,9 +8,9 @@ describe DockingStation do
 		expect(station.capacity).to eq(123)
 	end
 
-	# it "should return empty if the station is empty" do
-	# 	expect(station.empty?).to eq(true)
-	# end
+	it "should return empty if the station is empty" do
+		expect(station.empty?).to eq(true)
+	end
 
 # let(:bike) { Bike.new }
 # let(:station) { DockingStation.new(:capacity => 20) }

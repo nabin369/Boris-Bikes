@@ -14,9 +14,9 @@ class DockingStation
 		self.capacity = option.fetch(:capacity, capacity)
 	end
 
-	# def empty?
-	# 	self.bikes.empty?
-	# end
+	def empty?
+		self.bikes.empty?
+	end
 
 	# end
 end
